@@ -17,7 +17,7 @@ from urllib.request import Request
 from urllib.request import urlopen
 
 
-from tondor.util.tool import parse_sentinel2_name
+from .tool import parse_sentinel2_name
 
 
 QUERY_URL_BASE = "https://finder.creodias.eu/resto/api/collections/{:s}/search.json?sortParams=startDate&sortOrder=ascending"

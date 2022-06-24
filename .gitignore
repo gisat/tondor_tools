@@ -1,6 +1,8 @@
 /venv/
 /venv/*
-
 /dist/
 /build/
 /ptrmetagen.egg-info/
+/tondor_tools.egg-info/
+/tondortools/tondor_tools.egg-info/
+/tondortools.egg-info/

@@ -1,17 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-import json
 import logging
-import subprocess
-import time
-from datetime import datetime
-from datetime import timedelta
-from pathlib import Path
-from shutil import copy
-from shutil import copytree
-from tempfile import mkdtemp
 
 import osgeo.ogr as ogr
 

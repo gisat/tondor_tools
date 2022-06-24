@@ -7,7 +7,7 @@ import logging
 import subprocess
 import time
 import glob
-import os
+
 import calendar
 
 from datetime import datetime
@@ -17,8 +17,6 @@ from shutil import copy
 from shutil import copytree
 from tempfile import mkdtemp
 
-import osgeo.gdal as gdal
-import ogr
 
 KEEP_FILENAME = ".tondor_keep"
 

@@ -7,8 +7,6 @@ from contextlib import contextmanager
 from pathlib import Path
 from tempfile import mkstemp
 
-import lsru
-
 
 log = logging.getLogger(__name__)
 
