@@ -1,7 +1,6 @@
 import pathlib
-from setuptools import setup
+from setuptools import setup, find_packages
 
-# The directory containing this file
 HERE = pathlib.Path(__file__).parent
 
 # The text of the README file
@@ -9,7 +8,7 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work'
 setup(
-    name="ptrmetagen",
+    name="tondor-tools",
     version='1.0.0',
     description="Package inludes tools for Tondor",
     long_description=README,
@@ -22,7 +21,8 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9"],
-    packages=["tondor-tool"],
+    packages=find_packages(where="tondor-tool"),
+    package_dir={"": "tondor-tool"},
     package_data = {'tiles_gpkg': ['*.gpkg']},
     include_package_data=True
     )
