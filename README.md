@@ -1,2 +1,9 @@
-# tondor_tools
-Tools for Tondor
+Tondor - Tool
+
+### Description 
+Python package for Tondor processing line  
+
+### Install
+```
+pip install tondor-tools
+```
